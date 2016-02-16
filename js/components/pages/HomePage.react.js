@@ -16,8 +16,8 @@ class HomePage extends Component {
     <div>
         <h1>FCC Voting App</h1>
         <h2>Select any one of the below votes to continue!</h2>
-        <Link className="btn" to="/poll">Vote 1</Link> &nbsp;
-        <Link className="btn" to="/readme">Setup</Link>
+        <Link className="ui button" to="/poll">Vote 1</Link> &nbsp;
+        <Link className="ui button" to="/readme">Setup</Link>
       </div>
     )
   }

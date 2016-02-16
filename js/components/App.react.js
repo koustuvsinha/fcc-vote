@@ -9,13 +9,17 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import Logo from '../../img/logo.png';
+import NavBar from './includes/NavBar.react';
 
 class App extends Component {
   render() {
     return (
       <div className="wrapper">
         <img className="logo" src={Logo} />
+        <NavBar/>
+        <div className="ui segment">
         { this.props.children }
+        </div>
       </div>
     );
   }
